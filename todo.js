@@ -4,9 +4,12 @@ var li;
 var addButton = document.getElementById('add')
 addButton.addEventListener('click', addItem)
 
-// var removeButton = document.getElementById('remove')
-// removeButton.addEventListener('click', removeItem)
+ var removeButton = document.getElementById('remove')
+ removeButton.addEventListener('click', removeItem)
 
+ function removeItem(){
+     
+ }
 function addItem(){
     var input =document.getElementById('input')
     var item = input.value;
